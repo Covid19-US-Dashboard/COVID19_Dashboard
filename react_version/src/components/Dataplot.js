@@ -258,6 +258,7 @@ export function Timeseriesplot({ x, lineData, barData, choice, record }) {
             layout={{
                 width: document.querySelector('div.col-md-6').clientWidth,
                 height: 450,
+                hovermode: 'x unified',
                 legend: {
                     font: {
                         size: 10
